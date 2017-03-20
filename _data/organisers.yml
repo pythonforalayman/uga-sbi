@@ -1,0 +1,40 @@
+David Boyne:
+    name: David Boyne
+    email: "david.boyne@test.com"
+    photo: "https://pbs.twimg.com/profile_images/660943257795457030/igA_joVD.jpg"
+
+
+Jimmy Smith:
+    name: Jimmy Smith
+    email: "jimmy.smith@test.com"
+    photo: "https://randomuser.me/api/portraits/men/92.jpg"
+
+
+Frank Smith:
+    name: Frank Smith
+    email: "frank.smith@test.com"
+    photo: "https://randomuser.me/api/portraits/men/64.jpg"
+
+
+Laura Frank:
+    name: Laura Frank
+    email: "laura.frank@test.com"
+    photo: "https://randomuser.me/api/portraits/women/0.jpg"
+
+Alisha Jiwani:
+    name: Alisha Jiwani
+    position: President
+    email: "david.boyne@test.com"
+    photo: "http://ugasbi.weebly.com/uploads/8/0/8/1/80816214/alishaj.jpg"
+
+Test Person:
+    name: Test McGee
+    position: Tester
+    email: Blah
+    photo: "http://ugasbi.weebly.com/uploads/8/0/8/1/80816214/5401-10208846646267259-295119578815993269-n.jpg?298"
+
+Alisha Merchant:
+    name: Alisha Merchant
+    position: Vice President
+    email: "alisha.merchant@uga.edu"
+    photo: "http://ugasbi.weebly.com/uploads/8/0/8/1/80816214/5401-10208846646267259-295119578815993269-n.jpg?298"

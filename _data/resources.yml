@@ -1,0 +1,36 @@
+- BusinessIntelligence.com:
+  name: BusinessIntelligence.com
+  url: http://businessintelligence.com
+  photo: http://ugasbi.weebly.com/uploads/8/0/8/1/80816214/screen-shot-2016-08-22-at-4-34-34-pm_orig.png
+  description: "Real-time information and resources regarding the top technologies, news and research concerning Business Intelligence (BI) and best practices."
+
+- Codecademy:
+  name: Codecademy
+  url: http://codecademy.com
+  photo: http://ugasbi.weebly.com/uploads/8/0/8/1/80816214/codeacademy-dropshadow-6401_1_orig.jpg
+  description: "Practice practice practice! Start your coding project today - and learn powerful object oriented and scripting languages like Java or Python from scratch."
+
+- Teradata:
+  name: Teradata
+  url: http://teradata.com
+  photo: http://ugasbi.weebly.com/uploads/8/0/8/1/80816214/teradata-tun-logo_2_orig.jpg
+  description: "Free resources and content that students can use to enhance their practical and book-knowlege for BI and expand their network. "
+
+- Codecademy:
+  name: Codecademy
+  url: http://codecademy.com
+  photo: http://ugasbi.weebly.com/uploads/8/0/8/1/80816214/codeacademy-dropshadow-6401_1_orig.jpg
+  description: "Practice practice practice! Start your coding project today - and learn powerful object oriented and scripting languages like Java or Python from scratch."
+
+- Teradata:
+  name: Teradata
+  url: http://teradata.com
+  photo: http://ugasbi.weebly.com/uploads/8/0/8/1/80816214/teradata-tun-logo_2_orig.jpg
+  description: "Free resources and content that students can use to enhance their practical and book-knowlege for BI and expand their network. "
+
+
+- PythonAnywhere:
+  name: Python Anywhere
+  url: http://pythonanywhere.com
+  photo: https://www.pythonanywhere.com/static/anywhere/images/logo-234x35.png
+  description: "Host, run, and code Python in the cloud!"

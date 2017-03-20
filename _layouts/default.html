@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+  <div class="page-wrap">
+  {% include header.html %}
+
+  {% if page.cover_credit %}
+    <span class="blog-cover-credit">Credit: Mother</span>
+  {% endif %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+  </body>
+  {% include footer.html %}
+</html>
