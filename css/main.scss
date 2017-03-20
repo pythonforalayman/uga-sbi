@@ -131,3 +131,55 @@ $on-laptop:        800px;
     width: 60%;
 }
 
+
+/*.navbar-custom {
+    .menu-bar {
+        text-align: center;
+        font-family: "Lucida Console", Monaco, monospace;
+    }
+
+    .menu-bar-item {  
+      display: inline-block;
+      line-height: $base-line-height;
+      &:not(:last-child) {
+          margin-right: 20px;
+      }
+    }
+}*/
+
+.navbar-nav {
+    float: none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu-bar-item .active {
+    color: #415161;
+}
+
+.navbar-nav .menu-bar-item {  
+  &:not(:last-child) {
+      margin-right: 10px;
+  }
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 5px; 
+    color: #b5c0d1;
+    &:hover {
+        color: #415161;
+    }
+}
