@@ -5,14 +5,14 @@ title: Officers
 index: 4
 ---
 
-<table class="officers">
+<!-- <table class="officers">
 {% for officer in site.data.officers %}
 <tr>
     {% capture direction %}{% cycle 'left', 'right' %}{% endcapture %}
     {% if direction == 'left' %}
         <td class="image">
             <div class="officer-square {{ direction }}">
-            <img src="{{ officer.photo }}" style="width:250px">
+                <img src="{{ officer.photo }}" style="width:250px">
                 <h3>{{ officer.position }}</h3>
                 <span>{{ officer.bio }}</span>
             </div>
@@ -22,7 +22,7 @@ index: 4
             <div class="officer-square {{ direction }}">
                 <h3>{{ officer.position }}</h3>
                 <span>{{ officer.bio }}</span>
-            <img src="{{ officer.photo }}" style="width:250px">
+                <img src="{{ officer.photo }}" style="width:250px">
             </div>
         </td>
     {% endif %}
@@ -30,3 +30,27 @@ index: 4
     </tr>
 {% endfor %}
 </table>
+ -->
+
+{% for officer in site.data.officers %}
+<div class="row">
+    {% capture direction %}{% cycle 'left', 'right' %}{% endcapture %}
+    {% if direction == 'left' %}
+        <div class="col-md-4">
+            <img src="{{ officer.photo }}" style="width:250px">
+        </div>
+        <div class="col-md-8">
+            <h3>{{ officer.position }}</h3>
+            <span>{{ officer.bio }}</span>
+        </div>
+    {% else %}
+        <div class="col-md-8">
+            <h3>{{ officer.position }}</h3>
+            <span>{{ officer.bio }}</span>
+        </div>
+        <div class="col-md-4">
+            <img src="{{ officer.photo }}" style="width:250px">
+        </div>
+    {% endif %}
+</div>
+{% endfor %}

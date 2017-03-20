@@ -31,3 +31,6 @@ future: true
 permalink: /event/:title.html
 
 cover: http://ugasbi.weebly.com/uploads/8/0/8/1/80816214/published/1474890886.png?1486223719
+
+sass:
+  style: :compressed
