@@ -5,52 +5,39 @@ title: Officers
 index: 4
 ---
 
-<!-- <table class="officers">
 {% for officer in site.data.officers %}
-<tr>
+<div class="hidden-xs hidden-sm row">
     {% capture direction %}{% cycle 'left', 'right' %}{% endcapture %}
     {% if direction == 'left' %}
-        <td class="image">
-            <div class="officer-square {{ direction }}">
-                <img src="{{ officer.photo }}" style="width:250px">
-                <h3>{{ officer.position }}</h3>
-                <span>{{ officer.bio }}</span>
-            </div>
-        </td>
-    {% else %}
-        <td class="image">
-            <div class="officer-square {{ direction }}">
-                <h3>{{ officer.position }}</h3>
-                <span>{{ officer.bio }}</span>
-                <img src="{{ officer.photo }}" style="width:250px">
-            </div>
-        </td>
-    {% endif %}
-    <div class="clearfix"></div>
-    </tr>
-{% endfor %}
-</table>
- -->
-
-{% for officer in site.data.officers %}
-<div class="row">
-    {% capture direction %}{% cycle 'left', 'right' %}{% endcapture %}
-    {% if direction == 'left' %}
-        <div class="col-md-4">
-            <img src="{{ officer.photo }}" style="width:250px">
+        <div class="col-sm-6 col-md-4">
+            <img src="{{ officer.photo }}">
         </div>
-        <div class="col-md-8">
+        <div class="col-sm-6 col-md-8">
             <h3>{{ officer.position }}</h3>
             <span>{{ officer.bio }}</span>
         </div>
     {% else %}
-        <div class="col-md-8">
+        <div class="col-sm-6 col-md-8">
             <h3>{{ officer.position }}</h3>
             <span>{{ officer.bio }}</span>
         </div>
-        <div class="col-md-4">
-            <img src="{{ officer.photo }}" style="width:250px">
+        <div class="col-sm-6 col-md-4">
+            <img src="{{ officer.photo }}">
         </div>
     {% endif %}
 </div>
 {% endfor %}
+
+<div class="visible-xs visible-sm">
+{% for officer in site.data.officers %}
+<div class="row lg-top-offset">
+    <div class="col-sm-6 col-md-4">
+        <img class="small-img" src="{{ officer.photo }}">
+    </div>
+    <div class="col-sm-6 col-md-8">
+        <h3>{{ officer.position }}</h3>
+        <span>{{ officer.bio }}</span>
+    </div>
+</div>
+{% endfor %}
+</div>

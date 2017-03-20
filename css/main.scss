@@ -188,9 +188,18 @@ $on-laptop:        800px;
     margin-top: 5%;
 }
 
- @media all and (max-width: 500px)
- {
-   .sm-offset {
-     margin-top: 5%;
-   }
- }
+.small-img {
+    display: block;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 500px)
+{
+    .sm-offset {
+        margin-top: 5%;
+    }
+
+    .lg-top-offset {
+        margin-top: 10%;
+    }
+}
