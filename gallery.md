@@ -5,10 +5,13 @@ title: Gallery
 index: 6
 ---
 
-<table>
-{% tablerow for i in (1..16) cols:4 %}
-{% assign url = "https://unsplash.it/200/?random" %}
-<a href="{{ url }}"><img src="{{ url }}"></a>
-{% endtablerow %}
-</table>
-
+{% for i in (1..16) %}
+<div class="row top-offset">
+{% for x in (1..4) %}
+{% assign url = "https://unsplash.it/400/?random" %}
+<div class="col-lg-3 col-md-3 col-sm-12 sm-offset">
+    <a href="{{ url }}"><img src="{{ url }}"></a>
+</div>
+{% endfor %}
+</div>
+{% endfor %}

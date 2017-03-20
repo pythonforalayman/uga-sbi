@@ -183,3 +183,14 @@ $on-laptop:        800px;
         color: #415161;
     }
 }
+
+.top-offset {
+    margin-top: 5%;
+}
+
+ @media all and (max-width: 500px)
+ {
+   .sm-offset {
+     margin-top: 5%;
+   }
+ }
