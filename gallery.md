@@ -5,7 +5,7 @@ title: Gallery
 index: 6
 ---
 
-{% for i in (1..16) %}
+{% for i in (1..4) %}
 <div class="row top-offset">
 {% for x in (1..4) %}
 {% assign url = "https://unsplash.it/400/?random" %}
