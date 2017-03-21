@@ -147,6 +147,10 @@ $on-laptop:        800px;
     }
 }*/
 
+.navbar-custom {
+    margin-bottom: 0px;
+}
+
 .navbar-nav {
     float: none;
     margin:0 auto;
@@ -208,3 +212,9 @@ $on-laptop:        800px;
     font-size: 20px;
     font-weight: bold;
 }
+
+.navbar span {
+      color: #fff !important;
+      background-color: #08A2FA;
+      line-height: 1.42857143 !important; /* this for line in desktop mode */
+  }
