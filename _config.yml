@@ -12,13 +12,12 @@ title: "Society of Business Intelligence"
 event_label: Events
 
 description: > # this means to ignore newlines until "baseurl:"
-  Simple Jekyll theme to host internal/external events happening in and around your area. Free free to contribute or fork the repo.
+  Join the Society of Business Intelligence today! Be sure to follow us on Twitter and Instagram to stay in touch!
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ugasbi.com" # the base hostname & protocol for your site
 
 #These settings might be able to go?
-author: David Boyne
 twitter_username: ugasbi
 company_name: UGA SBI
 
