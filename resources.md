@@ -5,18 +5,20 @@ title: Resources
 index: 5
 ---
 
+<span class="description">
 We have put together a page of resources we think will be helpful to you as your continue on your journey towards proficiency in Business Intelligence. Please consider using them to your advantage.
+</span>
 
 {% for resource in site.data.resources %}
 {% capture modulo %}{% cycle 'open', '0', 'close' %}{% endcapture %}
 {% if modulo == 'open' %}
-<div class="row" style="margin: 0px">
+<div class="row" style="margin: 15px 0 0 0">
 {% endif %}
     <div class="col-sm-12 col-md-4">
         <a href="{{ resource.url }}"><img src="{{ resource.photo }}"></a>
         {{ resource.description }}
     </div>
-{% if modulo == 'close' %}
+{% if modulo == 'close' or forloop.last %}
 </div>
 {% endif %}
 {% endfor %}
@@ -34,7 +36,7 @@ We have put together a page of resources we think will be helpful to you as your
         <span class="news-title">{{ news.title }}</span><br />
         {{ news.description }} <a href="{{ news.url }}">read more</a>
     </div>
-{% if modulo == 'close' %}
+{% if modulo == 'close' or forloop.last %}
 </div>
 {% endif %}
 {% endfor %}
