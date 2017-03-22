@@ -32,5 +32,12 @@ permalink: /event/:title.html
 
 cover: http://ugasbi.weebly.com/uploads/8/0/8/1/80816214/published/1474890886.png?1486223719
 
+exclude:
+    - .explorer
+    - .sass-cache
+    - _site
+
+timezone: America/New_York
+
 sass:
-  style: :compressed
+    style: compressed
