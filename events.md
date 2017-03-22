@@ -13,9 +13,9 @@ index: 2
 <h5 class="center bold">
   <a href="https://docs.google.com/forms/d/1lSdddbWcUiZGIiSqDwlFFIo0mJmKHs4AP-ZpgT93w5Q/edit">APPLY HERE</a>
 </h5>
-<p>
+<span>
   Our executive board applications are officially open - if you're a freshman, sophomore, junior, or rising senior, please apply to be a part of this incredible leadership experience. We have 5 positions open - <b>VP of Marketing, VP of Finance, VP of Internal Relations, VP of External Relations, and VP of Web Development</b>. You can apply for a maximum of 2 positions, and we will review applications by April 3rd. If selected, you will be asked to interview with either our President (Alisha Jiwani) or our Vice President (Alisha Merchant). Please email us if you have any questions. The link below contains the application and more details about each position along with the key roles involved with each. Please keep in mind that the deadline is March 30. We can't wait to hear from you all!
-</p>
+</span>
 {% endcapture %}
 {% capture image %}
 <img src="http://ugasbi.weebly.com/uploads/8/0/8/1/80816214/exec-1_1_orig.png">
