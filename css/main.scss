@@ -132,21 +132,6 @@ $on-laptop:        800px;
 }
 
 
-/*.navbar-custom {
-    .menu-bar {
-        text-align: center;
-        font-family: "Lucida Console", Monaco, monospace;
-    }
-
-    .menu-bar-item {  
-      display: inline-block;
-      line-height: $base-line-height;
-      &:not(:last-child) {
-          margin-right: 20px;
-      }
-    }
-}*/
-
 .navbar-custom {
     margin-bottom: 0px;
 }
@@ -214,7 +199,39 @@ $on-laptop:        800px;
 }
 
 .navbar span {
-      color: #fff !important;
-      background-color: #08A2FA;
-      line-height: 1.42857143 !important; /* this for line in desktop mode */
-  }
+    color: #fff !important;
+    background-color: #08A2FA;
+    line-height: 1.42857143 !important; /* this for line in desktop mode */
+}
+
+.description {
+    padding-bottom: 15px;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.about-title {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*white-space: nowrap;*/
+    text-align: center;
+    padding-bottom: 15px;
+    h2 {
+        margin-top: 0px;
+    }
+}
+.row hr {
+    margin-top: 0px;    
+}
