@@ -30,7 +30,7 @@ index: 3
     <div class="col-md-12 col-sm-12">
     <h4 class="contact-title">Questions? Comments? Contact Us!</h4>
     <form action="https://getsimpleform.com/messages?form_api_token=bd935738dde5d3606ce553ff3922d30e" method="post">
-    <input type='hidden' name='redirect_to' value='{{ site.baseurl }}' />
+    <input type='hidden' name='redirect_to' value='{{ site.url }}'>
         <div class="form-group">
             <label for="name" class="cols-sm-2 control-label">Your Name</label>
             <div class="cols-sm-10">
