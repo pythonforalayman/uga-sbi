@@ -16,8 +16,8 @@ index: 3
 <div class="col-md-6 col-sm-12">
 {{ text }}
 <div class="col-md-12">
-    <button type="button" class="btn btn-success btn-lg btn-block">Yearly Membership</button>
-    <button type="button" class="btn btn-info btn-lg btn-block">Monthly Membership</button>
+    <a class="btn btn-success btn-lg btn-block" href="http://ev11.evenue.net/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS%3AUGAARTS%3ATATE1617%3ASBIMDY%3A&linkID=ta-ugaarts&shopperContext=&pc=&caller=&appCode=&groupCode=PAY&cgc=">Yearly Membership</a>
+    <a class="btn btn-info btn-lg btn-block" href="http://ev11.evenue.net/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS%3AUGAARTS%3ATATE1617%3ASBIMDS%3A&linkID=ta-ugaarts&shopperContext=&pc=&caller=&appCode=&groupCode=PAY&cgc=">Monthly Membership</a>
 </div>
 </div>
 <div class="col-md-6 col-sm-12 sm-offset">
