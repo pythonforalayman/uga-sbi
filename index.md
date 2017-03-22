@@ -9,12 +9,12 @@ index: 0
 
 <div class="row">
   <div class="col-md-6 col-sm-12">
-    <span>
+    <span class="welcome">
         UGA Society for Business Intelligence is a premier Business Intelligence society founded in 2016 at the University of Georgia for the distinct purpose of bridging the gap in skills between young professionals and IT ventures in the enterprise world.​
     </span>
     <br />
     <br />
-    <span>
+    <span class="welcome">
         SBI hosts workshops, data camps, networking nights, and facilitates relationship-building with employers to give you a head start in building your career.
     </span>
   </div>
