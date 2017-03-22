@@ -333,6 +333,7 @@ tbody {
 }
 
 .post-time{
+  margin-top: 5px;
   line-height: 18px;
 }
 
@@ -347,6 +348,7 @@ tbody {
     line-height: 1;
     padding:0;
     margin:0;
+    width: 70%;
 
     @include media-query($on-laptop) {
       font-size: 36px;
