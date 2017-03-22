@@ -208,10 +208,6 @@ $on-laptop:        800px;
     padding-bottom: 15px;
 }
 
-.contact-title {
-    text-align: center;
-}
-
 .center {
     text-align: center;
 }
@@ -234,4 +230,17 @@ $on-laptop:        800px;
 }
 .row hr {
     margin-top: 0px;    
+}
+
+span {
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif; 
+}
+
+.welcome {
+    display: table-cell;
+    text-align: center;
+}
+
+.post-time {
+  margin-top: 5px;
 }
